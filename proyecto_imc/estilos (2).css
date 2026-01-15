@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7fb; /* gris azulado muy suave */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+
+.formulario {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+label {
+    display: block;
+    margin: 10px 0 4px;
+    font-weight: 500;
+}
+
+input {
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5dade2;
+}
+
+/* Botón */
+button {
+    background-color: #5dade2; /* azul suave */
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Tabla */
+table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th {
+    background-color: #eaf2f8;
+    color: #2c3e50;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #f9fbfd;
+}
+
+/* Estados IMC (colores suaves) */
+td.bajo {
+    color: #2874a6;
+    font-weight: bold;
+}
+
+td.normal {
+    color: #239b56;
+    font-weight: bold;
+}
+
+td.sobrepeso {
+    color: #ca6f1e;
+    font-weight: bold;
+}
+
+td.obesidad {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+img {
+    border-radius: 6px;
+}
